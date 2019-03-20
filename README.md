@@ -4,7 +4,12 @@ A service that can be called via http and respond in a given delay. Usefull for 
 # The API 
 ## GET /delay
 The GET endpoint will respond OK after a fixed delay of 250ms by default, you can customize 
-the fixed delay by specifying a `?delay=nb` query param where nb is the number of millisecond 
+the fixed delay by specifying a `?delay=nb` query param where nb is the number of milliseconds 
+before the endpoint will respond.
+
+## POST /delay
+The POST endpoint will respond a 204 HTTP status after a fixed delay of 250ms by default, you can customize 
+the fixed delay by specifying a `?delay=nb` query param where nb is the number of milliseconds
 before the endpoint will respond.
 
 
