@@ -1,6 +1,6 @@
 # delay-service
 A service that can be called via http and respond in a given delay. Usefull for testing stuff and simulating performance issues ...
-Prebuild Docker images are available from Docker Hub : https://cloud.docker.com/repository/registry-1.docker.io/loicmathieu/delay-service to use it : `docker run loicmathieu/delay-service`.
+Prebuild Docker images are available from Docker Hub : https://cloud.docker.com/u/loicmathieu/repository/docker/loicmathieu/delay-service to use it : `docker run loicmathieu/delay-service`.
 
 ## The API 
 ### GET /delay
